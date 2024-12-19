@@ -1,0 +1,13 @@
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.product {
+    background-color: rgb(235, 239, 243);
+    padding: 20px;
+    border-radius: 5%;
+    width: 250px;
+    text-align: center;
+}
