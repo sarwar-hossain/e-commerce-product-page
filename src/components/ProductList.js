@@ -9,13 +9,17 @@ function ProductList() {
 
             <div className="product-list">
 
-                {products.map((product, index) => (
+            
+              {products.map((product, index) => (
                     <div className="product" key={index}>
                         <h1>{product.name}</h1>
                         <p>{product.description}</p>
-                        <h3>{product.price}</h3>
+                        <h3>Price: {product.price}</h3>
+                        <a href="#" className="buy-btn">Buy Now</a>
+                        <button className="card-btn">Add to Card</button>
                     </div>
                 ))}
+              
 
             </div>
 
