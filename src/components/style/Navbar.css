@@ -17,6 +17,10 @@
     font-size: 18px;
 }
 
+.page ul li a {
+    text-decoration: none;
+}
+
 
 .logo {
     font-size: 20px;
